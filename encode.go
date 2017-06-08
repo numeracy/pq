@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/it512/pq/oid"
+	"github.com/numeracy/pq/oid"
 )
 
 func binaryEncode(parameterStatus *parameterStatus, x interface{}) []byte {
